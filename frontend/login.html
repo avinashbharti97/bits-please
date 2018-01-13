@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="./css/style.css" ype="text/css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <div id="loader"></div>
+    <div class="row">
+      <div class="col s12">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+          <div class="card-panel grey lighten-5" style="margin-top:10vh">
+            <div class="row">
+              <form class="col s12" id="loginForm">
+                <h4 class="thin">Login</h4>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input name="email" id="email" type="email" class="validate" required/>
+                    <label htmlFor="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">home</i>
+                    <input id="password" type="password" name="password" class="validate" required/>
+                    <label htmlFor="password">Password</label>
+                  </div>
+                </div>
+                <button class="btn waves-effect waves-light" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+		<a class="btn waves-effect waves-light" href="signup.html" name="action">Signup
+                  <i class="material-icons right">send</i>
+                </a>
+              </form>
+            </div>    
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+  </body>
+</html>
